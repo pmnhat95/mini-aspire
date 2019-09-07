@@ -1,0 +1,22 @@
+.cursor-pointer {
+  cursor: pointer;
+}
+
+
+/* icolors */
+
+.icolors > .white {
+  background: #fff;
+  border: 1px solid #f1f1f1;
+}
+
+.icolors > .white.active::after {
+  color: #000;
+}
+
+.icolors > .cardinal { background: #9A3334; }
+.icolors > .dark_chocolate { background: #352A24; }
+.icolors > .dark_heather { background: url(../images/color/dark-heather.png); }
+.icolors > .forest { background: #1B2219; }
+.icolors > .helicona { background: #d023df; }
+.icolors > .navy { background: #15232b; }
